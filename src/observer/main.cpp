@@ -189,7 +189,7 @@ int main(int argc, char **argv)
 
   rc = init(the_process_param());
   if (rc != STATUS_SUCCESS) {
-    cerr << "Shutdown due to failed to init!" << endl;
+    cerr << "Shutdown due to failed to init! " << endl;
     cleanup();
     return rc;
   }
